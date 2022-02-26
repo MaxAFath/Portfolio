@@ -1,5 +1,10 @@
 :root{
-    --background: #365902;
-    --nav: #847e76;
-    --header: #317302;
+    --background: #0B9ED9;
+    --nav: #034AA6;
+    --header: #0455BF;
+    
+}
+
+body {
+    background-color: var(--background);
 }
