@@ -1,10 +1,29 @@
 :root{
     --background: #0B9ED9;
-    --nav: #034AA6;
+    --footer: #034AA6;
     --header: #0455BF;
-    
+    --sideBar: #BF6FA3;
+    --hero: #0BB3D9;
 }
-
+/* Header */
+header{
+    background-color: var(--header);
+}
+/*end of header*/
+/*body section*/
 body {
     background-color: var(--background);
 }
+
+/*hero section start*/
+.hero{
+    background-color: var(--hero);
+}
+/*end of hero section*/
+
+/* footer */
+footer{
+    background-color: var(--footer);
+}
+
+/*end of footer */
