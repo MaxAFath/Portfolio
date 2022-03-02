@@ -15,9 +15,21 @@ body {
     background-color: var(--background);
 }
 
+.about {
+    background-color: var(--hero);
+}
+
 /*hero section start*/
 .hero{
     background-color: var(--hero);
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-card img{
+    width: 450px;
+    height:350px;
 }
 /*end of hero section*/
 
