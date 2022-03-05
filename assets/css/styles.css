@@ -24,6 +24,24 @@ body {
     font-size: 30px;
 }
 
+.header nav {
+    display: flex;
+    margin: 7px 0;
+}
+
+.header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.header nav ul a {
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
 .about {
     background-color: #64ae09   ;
 }
