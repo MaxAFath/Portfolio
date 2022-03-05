@@ -1,5 +1,5 @@
 :root{
-    --background: #0B9ED9;
+    --background: #472cdd;
     --footer: #034AA6;
     --header: #0455BF;
     --sideBar: #BF6FA3;
@@ -15,8 +15,17 @@ body {
     background-color: var(--background);
 }
 
+.header{
+    flex-wrap: wrap;
+}
+
+.header h1{
+    font-weight: bold;
+    font-size: 30px;
+}
+
 .about {
-    background-color: var(--hero);
+    background-color: #64ae09   ;
 }
 
 /*hero section start*/
@@ -25,6 +34,11 @@ body {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+}
+
+.hero-card {
+    background-color: #64ae09;
+    margin: 5px;
 }
 
 .hero-card img{
