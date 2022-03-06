@@ -14,7 +14,7 @@ header{
 body {
     background-color: var(--background);
 }
-
+/* header*/
 .header{
     flex-wrap: wrap;
 }
@@ -41,7 +41,8 @@ body {
     font-weight: lighter;
     font-size: 1.55vw;
 }
-
+/* end of header*/
+/* about */
 .about {
     background-color: #64ae09   ;
 }
@@ -59,10 +60,16 @@ body {
     margin: 5px;
 }
 
+.hero-card img:hover {
+    width: 500px;
+    height: 400px;
+}
+
 .hero-card img{
     width: 450px;
     height:350px;
 }
+
 /*end of hero section*/
 
 /* footer */
