@@ -9,47 +9,48 @@
 <body>
     <!--header/Nav bar-->
     <header>
-        <h1>Max Fathauer</h1>
         <nav>
             <ul>
-                <li><a>About Me</a></li>
-                <li><a>Contact Info</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#Projects">Previous wrok</a></li>
+                <li><a href="#footer">Contact Info</a></li>
                 <li><a href="www.linkedin.com/in/max-fathauer-05259b92">linkedin</a></li>
                 <li><a href="https://github.com/MaxAFath?tab=repositories">Github</a></li>
                 <li><a href="https://www.dropbox.com/s/4z5avncldby5gg4/Max%20A%20Resume.pdf?dl=0">Resume</a></li>
             </ul>
         </nav>
-        <a href="">
-            <img src="./assets/images/Max's Avatar.png" alt="Max's avatar" />
-        </a>
     </header>
     <!--end of headr/nav-->
     <!--hero section -->
-    <section class="about">
-        <p>Hello my name is</p>
-        <h2>Max Fathauer</h2>
+    <section id="about" class="about">
+        <h2>Hello my name is, Max Fathauer</h2>
+        <img src="./assets/images/Max's Avatar.png" alt="Max's avatar" />
+        <div class="about-step">
         <p>
             I am currently studing to become a Full-Stack Developer at Case Western Reserve University Coding Bootcamp.
-            I have an Associates Degree from Cuyahoga Community College. I have taken courses at Cuyahoga Community College in C++, C#, Java, and Logic.
+            I have an Associates Degree from Cuyahoga Community College. And at Cuyahoga Community College I have taken corse in C++, C#, Java, and Logic.
         </p>
+        </div>
     </section>
     <!-- images that link to the github of the project-->
-    <section class="hero">
-        <div class="hero-card">
+    <div class="hero">
+        <h2 class="hero">Past Projects</h2>
+    </div>
+    <section id="Projects" class="projects">
+        <div class="projects-card">
             <a href="https://maxafath.github.io/Horiseon/">
             <img src="./assets/images/Horison-hw.png" alt="Horison-Homework" />
             </a>
         </div>
-        <div class="hero-card">
+        <div class="projects-card">
             <a href="https://maxafath.github.io/run-buddy/">
                 <img src="./assets/images/Run-buddy-hw.png"  alt="Run Buddy Homework"/>
             </a>
         </div>
-        <!--need image and way to play that is not through the console.
-            <div class="hero-card">
-            <a href="https://maxafath.github.io/robot-gladiators/">
-                <img src=""
-            </a>
-        </div>-->
+        <!--future projects -->
     </section>
+    <footer id="footer">
+        <h2>How to contact me</h2>
+        <p><a href="www.linkedin.com/in/max-fathauer-05259b92">linkedin</a> is the best way to reach me in a timely maner.</p>
+    </footer>
 </body>

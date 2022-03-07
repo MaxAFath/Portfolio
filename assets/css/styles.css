@@ -1,80 +1,112 @@
 :root{
-    --background: #472cdd;
+    --background: #6dcedf;
     --footer: #034AA6;
     --header: #0455BF;
     --sideBar: #BF6FA3;
-    --hero: #0BB3D9;
+    --projects: #0BB3D9;
 }
 /* Header */
-header{
-    background-color: var(--header);
+
+.header{   
+    padding: 20px 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: var(--background);
 }
+
+header nav {
+    display: inline-block;
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+header nav ul a {
+    font-weight: lighter;
+    font-size: 1.55vw;
+    padding: 10px ;
+}
+
+
 /*end of header*/
 /*body section*/
 body {
     background-color: var(--background);
 }
 /* header*/
-.header{
-    flex-wrap: wrap;
+
+/* end of header*/
+/* hero */
+.about {
+    background-color: #29dba0   ;
+    text-align: center;
+}
+.about h2 {
+    font-weight: bold;
+    font-size: 28px;
 }
 
-.header h1{
+.about img {
+    width: 150px;
+    height: 150px;
+    display: inline;
+}
+
+.about-step p{
+    padding: 30px;
+}
+
+.hero{
+    padding: 15px;
+}
+.hero h2{
+    text-align: center;
+    margin: 15px;
     font-weight: bold;
     font-size: 30px;
 }
-
-.header nav {
-    display: flex;
-    margin: 7px 0;
-}
-
-.header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-}
-
-.header nav ul a {
-    font-weight: lighter;
-    font-size: 1.55vw;
-}
-/* end of header*/
-/* about */
-.about {
-    background-color: #64ae09   ;
-}
-
-/*hero section start*/
-.hero{
-    background-color: var(--hero);
-    align-items: center;
+/*projcets section start*/
+.projects{
+    background-color: var(--projects);
+    place-content: center;
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
 }
 
-.hero-card {
+
+.projects-card {
     background-color: #64ae09;
     margin: 5px;
 }
 
-.hero-card img:hover {
+.projects-card img:hover {
     width: 500px;
     height: 400px;
 }
 
-.hero-card img{
+.projects-card img{
     width: 450px;
     height:350px;
 }
 
-/*end of hero section*/
+/*end of projects section*/
 
 /* footer */
 footer{
     background-color: var(--footer);
+    text-align: center;
+    height: 50px;
+    color: var();
 }
 
 /*end of footer */
