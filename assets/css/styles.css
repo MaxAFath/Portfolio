@@ -1,8 +1,6 @@
 :root{
     --background: #6dcedf;
-    --footer: #034AA6;
-    --header: #0455BF;
-    --sideBar: #BF6FA3;
+    --text: #BF6FA3;
     --projects: #0BB3D9;
 }
 /* Header */
@@ -103,7 +101,7 @@ body {
 
 /* footer */
 footer{
-    background-color: var(--footer);
+    background-color: var(--background);
     text-align: center;
     height: 50px;
     color: var();
